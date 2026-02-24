@@ -1,4 +1,4 @@
-# NBA-DATA-ANALYSIS
+# nba repository
 
 A Streamlit-based NBA web app scaffold for exploring teams, players, and recent game results.
 
@@ -6,11 +6,11 @@ A Streamlit-based NBA web app scaffold for exploring teams, players, and recent 
 
 ```text
 .
-├── app/
+├── nba/app/
 │   └── main.py                # Streamlit entry point
-├── analysis/
+├── nba/analysis/
 │   └── data_processing.py     # Data wrangling and validation helpers
-├── services/
+├── nba/services/
 │   └── nba_client.py          # NBA API client
 └── requirements.txt
 ```
@@ -35,7 +35,7 @@ A Streamlit-based NBA web app scaffold for exploring teams, players, and recent 
 Start Streamlit from the repository root:
 
 ```bash
-streamlit run app/main.py
+streamlit run nba/app/main.py
 ```
 
 ## Current UI Sections

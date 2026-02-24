@@ -1,1 +1,1 @@
-"""Reusable Streamlit components for charts/tables."""
+"""Backward-compatible wrapper for ``nba.app.components``."""
